@@ -1,0 +1,324 @@
+/*colors #c5c1c0 grey #1a2930 blue #f7ce3e yellow #0a1612 black*/
+body{
+	position: relative;
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainparallax{
+    background-image: url("/assets/main.jpg");
+}
+#aboutparallax{
+    background-image: url("/assets/aboutme.jpg");
+}
+#workparallax{
+	background-image: url("/assets/work.jpg");
+}
+#expparallax{
+	background-image: url("/assets/experience.jpg");
+}
+#portparallax{
+    background-image: url("/assets/port.jpg");	
+}
+#eduparallax{
+    background-image: url("/assets/education.jpg");	
+}
+#contactparallax{
+    background-color:#1a2930;	
+}
+.main{
+	height:730px;
+}
+.about{
+	height:730px;
+}
+.workexp{
+	height: 730px;
+}
+.experience{
+	height: 730px;
+}
+.portfolio{
+	height: 730px;
+}
+.education{
+	height: 730px;
+}
+.contact{
+	height: 730px;
+}
+.resumenav{
+	position: fixed;
+	width: 815px;
+	margin-left: 232px;
+	z-index: 500;
+}
+.buttons{
+	width: 125px;
+	height: 50px;
+	outline: none;
+	border: none;
+	text-align: center;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.75s;
+	background-color: #f7ce3e;
+}
+.buttons:hover{
+	background-color: #1a2930;
+	border-radius: 5px;
+	color: white;
+}
+#navbttn li a {
+	color: #0a1612;
+}
+#navbttn li a:hover{
+	color: #f7ce3e;
+}
+/*******************************mainpage******************************************/
+#maintitle{
+	width: 60%;
+	text-align: center;
+	margin-left: 250px;
+	margin-top: 215px;
+}
+#titlename{
+	font-size: 75px;
+	color: white;
+}
+#resumetitle{
+	margin-left: 490px;
+}
+#reactres{
+	color: white;
+}
+#instruction{
+	text-align: center;
+}
+#scrolldown{
+	color: white;
+	text-align: center;
+	margin-top: 130px;
+}
+#arrow{
+	color:white;
+	font-size: 35px;
+	text-align: center;
+}
+/**********************************aboutpage***************************************/
+#amname{
+	height: 200px;
+	background-color:#1a2930;
+	width: 40%;
+	float: left;
+}
+#amjob{
+	background-color: #1a2930;
+	height: 200px;
+	width: 40%;
+	float: right;
+
+}
+#amhobby{
+	background-color: #1a2930;
+	height: 200px;
+	width: 40%;
+
+}
+#namepic{
+	width: 100%;
+	height: 32%;
+	padding-left: 75px;
+}
+#jobsearch{
+	width: 100%;
+	height: 32%;
+	padding-right: 75px;
+}
+#hobbypic{
+	width: 100%
+	height: 32%;
+	padding-left: 75px;
+}
+/**************************************workexperience******************************/
+#rushtitle{
+	background-color:#f7ce3e ;
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+	margin-left: 40px;
+}
+#boondockstitle{
+	background-color:#f7ce3e ;
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+	margin-right: 40px; 
+}
+#jobboondocks{
+	width: 60%;
+	height: 20%;
+	margin-left: 250px;
+	margin-top: 102px;
+}
+#jobrush{
+	width: 60%;
+	height: 20%;
+	margin-left: 425px;
+}
+#rushdes{
+	width: 55%;
+	height: 175px;
+	background-color: #c5c1c0;
+	float:left;
+	border-radius: 15px;
+	padding: 15px;
+}
+#boondockdes{
+	width: 55%;
+	height: 175px;
+	background-color: #c5c1c0;
+	float:left;
+	border-radius: 15px;
+	padding: 15px;
+}
+/*************************************Experience***********************************/
+#languages{
+	background-color:rgba(247, 206, 62, .7);
+	width: 80%;
+	height: 550px;
+	float: left;
+	margin-left: 10%;
+	margin-top: 50px;
+	padding-right: 20px;
+}
+.langlist{
+	color:#1a2930;
+	font-size: 30px;
+	margin-top: 22px;
+	margin-left: 15px;
+	border-bottom: 2px solid #c5c1c0;
+}
+/*************************************Portfolio************************************/
+#projects{
+	width: 75%;
+	height: 325px;
+	margin-left: 160px;
+	background-color: purple;
+	margin-top: 50px;
+}
+#finalgroup{
+	width: 35%;
+	height: 275px;
+	background-color: white;
+	float: left;
+	margin-left: 85px;
+	margin-top: 25px;
+}
+#groupblog{
+	width: 35%;
+	height: 275px;
+	background-color: white;
+	float: left;
+	margin-left: 110px;
+	margin-top: 25px;
+}
+#projdes{
+	width: 80%;
+	height: 125px;
+	background-color: blue;
+	margin-top: 90px;
+	margin-left: 127px;
+}
+/*************************************Education************************************/
+#eduwrap{
+	text-align: center;
+	width: 100%;
+}
+#nycda{
+	background-color:#1a2930;
+	color: #c5c1c0;
+	width: 50%;
+	text-align: center;
+}
+#nycdatitle{
+
+}
+#nycdades{
+
+}
+#college{
+	background-color:#1a2930;
+	color: #c5c1c0;
+	width: 50%;
+	text-align: center;
+}
+#colltitle{
+
+}
+#colldes{
+
+}
+#collname{
+
+}
+#colldate{
+
+}
+#highschool{
+	background-color:#1a2930;
+	color: #c5c1c0;
+	width: 50%;
+	text-align: center;
+}
+
+
+/*************************************Contact**************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
