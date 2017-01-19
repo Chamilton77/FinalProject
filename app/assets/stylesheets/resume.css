@@ -243,29 +243,37 @@ body{
 	width: 75%;
 	height: 325px;
 	margin-left: 160px;
-	background-color: purple;
+	background-color:rgba(247, 206, 62, .3);
 	margin-top: 50px;
 }
 #finalgroup{
-	width: 35%;
+	width: 45%;
 	height: 275px;
 	background-color: white;
 	float: left;
-	margin-left: 85px;
 	margin-top: 25px;
+	margin-left: 35px;
 }
 #groupblog{
-	width: 35%;
+	width: 45%;
 	height: 275px;
 	background-color: white;
 	float: left;
-	margin-left: 110px;
 	margin-top: 25px;
+	margin-left: 25px;
+}
+#devcloudpic{
+	width: 100%;
+	height: 275px;
+}
+#chefpic{
+	width:100%;
+	height: 275px;
 }
 #projdes{
 	width: 80%;
 	height: 125px;
-	background-color: blue;
+	background-color: #c5c1c0;
 	margin-top: 90px;
 	margin-left: 127px;
 }
@@ -313,10 +321,52 @@ body{
 
 
 /*************************************Contact**************************************/
+.contactinfo{
+	width: 45%;
+	height: 600px;
+	background-color:rgba(247, 206, 62, .8); 
+	float:left;
+	margin-top: 25px;
+	margin-left: 40px;
+	border-radius: 10%;
+}
+#contactform{
+	margin-top: 50px;
+	width: 80%;
+	margin-left: 110px;
+	color: white;
+}
+#email{
+	margin-top: 10px;
+	width: 75%;
+	background-color:#1a2930;
+	color: white;
 
+}
+#subject{
+	margin-top: 10px;
+	width: 75%;
+	background-color:#1a2930;
 
-
-
+}
+#emailcontent{
+	margin-top: 10px;
+	width: 75%;
+	background-color:#1a2930;
+	color: white;
+}
+#subbttn{
+	margin-top: 10px;
+	width: 200px;
+	height: 50px;
+	background-color:#1a2930;
+	margin-left: 75px;
+}
+#contacttitle{
+	color: red;
+	margin-left: 65px;
+	margin-top: 50px;
+}
 
 
 
