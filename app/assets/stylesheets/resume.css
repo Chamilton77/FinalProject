@@ -132,18 +132,25 @@ body{
 }
 #namepic{
 	width: 100%;
-	height: 32%;
+	height: 25%;
 	padding-left: 75px;
+	color: white;
 }
 #jobsearch{
 	width: 100%;
-	height: 32%;
+	height: 25%;
 	padding-right: 75px;
+	color: white;
 }
 #hobbypic{
 	width: 100%
-	height: 32%;
+	height: 25%;
 	padding-left: 75px;
+	color: white;
+}
+.amwrap{
+	margin-top: 50px;
+	height: 650px;
 }
 /**************************************workexperience******************************/
 #rushtitle{
@@ -184,6 +191,7 @@ body{
 	float:left;
 	border-radius: 15px;
 	padding: 15px;
+	text-align: center;
 }
 #boondockdes{
 	width: 55%;
@@ -192,28 +200,34 @@ body{
 	float:left;
 	border-radius: 15px;
 	padding: 15px;
+	text-align: center;
 }
 /*************************************Experience***********************************/
 #languages{
 	background-color:rgba(247, 206, 62, .7);
-	width: 80%;
+	width: 85%;
 	height: 600px;
 	float: left;
-	margin-left: 10%;
+	margin-left: 100px;
 	padding-right: 20px;
 	padding-left: 20px;
 	border-radius: 10px;
 	padding-bottom: 10px;
+	margin-top: 5px;
 }
 .langlist{
 	color:#1a2930;
 	font-size: 25px;
+	height: 29px;
+	margin-top:20px;
 }
 .skill_name{
 	width: 20%;
+	margin-bottom: -10px;
+	margin-top: 17px;
 }
 .skill{
-	width:90%;
+	width:85%;
 	height: 25px;
 	border-radius: 10px;
 	background-color: #c5c1c0;
@@ -237,6 +251,9 @@ body{
     border-bottom-left-radius: 10px;
     background-color: #1a2930;position: relative;
     overflow: hidden;
+}
+.skillword{
+	float:right;
 }
 /*************************************Portfolio************************************/
 #projects{
@@ -287,39 +304,23 @@ body{
 	color: #c5c1c0;
 	width: 50%;
 	text-align: center;
-}
-#nycdatitle{
-
-}
-#nycdades{
-
+	margin-left: 5%;
 }
 #college{
 	background-color:#1a2930;
 	color: #c5c1c0;
 	width: 50%;
 	text-align: center;
-}
-#colltitle{
-
-}
-#colldes{
-
-}
-#collname{
-
-}
-#colldate{
-
+	margin-left: 20%;
 }
 #highschool{
 	background-color:#1a2930;
 	color: #c5c1c0;
 	width: 50%;
 	text-align: center;
+	margin-left: 45%; 
+
 }
-
-
 /*************************************Contact**************************************/
 .contactinfo{
 	width: 45%;
@@ -341,12 +342,19 @@ body{
 	width: 75%;
 	background-color:#1a2930;
 	color: white;
-
+	border-radius: 10px;
+	border-color: #1a2930;
+	outline: none;
+	text-align: center;
 }
 #subject{
 	margin-top: 10px;
 	width: 75%;
 	background-color:#1a2930;
+	border-color: #1a2930;
+	outline: none;
+	border-radius: 10px;
+	text-align: center;
 
 }
 #emailcontent{
@@ -354,6 +362,9 @@ body{
 	width: 75%;
 	background-color:#1a2930;
 	color: white;
+	border-color: #1a2930;
+	outline: none;
+	border-radius: 10px;
 }
 #subbttn{
 	margin-top: 10px;
@@ -361,42 +372,11 @@ body{
 	height: 50px;
 	background-color:#1a2930;
 	margin-left: 75px;
+	border-radius: 10px;
+	border-color: #1a2930;
 }
 #contacttitle{
 	color: red;
 	margin-left: 65px;
 	margin-top: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

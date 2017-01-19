@@ -72,7 +72,7 @@ $(document).ready(function (){
             var origWidth = $el.width();
             $el.width(0);
             $queue.queue(function(next) {
-                $el.animate({width: origWidth}, 800, next);
+                $el.animate({width: origWidth}, 50, next);
             });
         });
     }
