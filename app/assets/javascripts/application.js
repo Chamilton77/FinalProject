@@ -17,10 +17,6 @@
 
 $(document).ready(function (){
 
-	$('body').scrollspy({
-  		target: '#navlist'
-	});
-
 	$("#amjump").click(function() {
 	    $('html, body').animate({
 	        scrollTop: $(".about").offset().top
@@ -62,32 +58,31 @@ $(document).ready(function (){
 
 	$(function() {
     
-    var $meters = $(".skill > span");
-    var $section = $('.codexp');
-    var $queue = $({});
+        var $meters = $(".skill > span");
+        var $section = $('.codexp');
+        var $queue = $({});
     
-    function loadDaBars() {
-        $meters.each(function() {
-            var $el = $(this);
-            var origWidth = $el.width();
-            $el.width(0);
-            $queue.queue(function(next) {
-                $el.animate({width: origWidth}, 50, next);
+        function loadDaBars() {
+            $meters.each(function() {
+                var $el = $(this);
+                var origWidth = $el.width();
+                $el.width(0);
+                $queue.queue(function(next) {
+                    $el.animate({width: origWidth}, 50, next);
+                });
             });
-        });
-    }
-    
-    $(document).bind('scroll', function(ev) {
-        var scrollOffset = $(document).scrollTop();
-        var containerOffset = $section.offset().top - window.innerHeight;
-        if (scrollOffset > containerOffset) {
-            loadDaBars();
-            // unbind event not to load scrolsl again
-            $(document).unbind('scroll');
         }
-    });
     
-});
+        $(document).bind('scroll', function(ev) {
+            var scrollOffset = $(document).scrollTop();
+            var containerOffset = $section.offset().top - window.innerHeight;
+            if (scrollOffset > containerOffset) {
+                loadDaBars();
+                // unbind event not to load scrolsl again
+                $(document).unbind('scroll');
+            }
+        });
+    });
 });
 
 
