@@ -75,11 +75,10 @@ body{
 	border-radius: 5px;
 	color: white;
 }
-#navbttn li a {
-	color: #0a1612;
-}
-#navbttn li a:hover{
-	color: #f7ce3e;
+.custscrollspy{
+	background-color: #1a2930;
+	border-radius: 5px;
+	color: white;
 }
 /*******************************mainpage******************************************/
 #maintitle{
