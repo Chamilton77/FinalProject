@@ -1,6 +1,7 @@
 /*colors #c5c1c0 grey #1a2930 blue #f7ce3e yellow #0a1612 black*/
 body{
 	position: relative;
+	height: 100%;
 }
 .parallax {
     background-attachment: fixed;
@@ -15,19 +16,19 @@ body{
     background-image: url("/assets/aboutme.jpg");
 }
 #workparallax{
-	background-image: url("/assets/work.jpg");
+	background-image: url("/assets/work.jpg")
 }
 #expparallax{
-	background-image: url("/assets/experience.jpg");
+	background-image: url("/assets/experience.jpg")
 }
 #portparallax{
-    background-image: url("/assets/port.jpg");	
+    background-image: url("/assets/port.jpg");
 }
 #eduparallax{
     background-image: url("/assets/education.jpg");	
 }
 #contactparallax{
-    background-color:#1a2930;	
+    background-color:#1a2930;
 }
 .main{
 	height:730px;
@@ -260,8 +261,9 @@ body{
 	width: 75%;
 	height: 325px;
 	margin-left: 160px;
-	background-color:rgba(247, 206, 62, .3);
+	background-color:rgba(247, 206, 62, .4);
 	margin-top: 50px;
+	border-radius: 10px;
 }
 #finalgroup{
 	width: 45%;
@@ -290,9 +292,13 @@ body{
 #projdes{
 	width: 80%;
 	height: 125px;
-	background-color: #c5c1c0;
+	background-color: #1a2930;
 	margin-top: 90px;
 	margin-left: 127px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 5px;
+	color: white;
 }
 /*************************************Education************************************/
 #eduwrap{
@@ -305,13 +311,15 @@ body{
 	width: 50%;
 	text-align: center;
 	margin-left: 5%;
+	height: 125px;
 }
 #college{
 	background-color:#1a2930;
 	color: #c5c1c0;
 	width: 50%;
 	text-align: center;
-	margin-left: 20%;
+	margin-left: 25%;
+	height: 125px;
 }
 #highschool{
 	background-color:#1a2930;
@@ -319,7 +327,10 @@ body{
 	width: 50%;
 	text-align: center;
 	margin-left: 45%; 
-
+	height: 125px;
+}
+.dates{
+	margin-top: -8px;
 }
 /*************************************Contact**************************************/
 .contactinfo{
