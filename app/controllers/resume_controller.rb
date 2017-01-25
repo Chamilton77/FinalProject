@@ -16,7 +16,7 @@ class ResumeController < ApplicationController
 		    :user_name            => 'cjcham77@gmail.com',
 		    :password             => ENV["EMAIL_PASSWORD"],
 		    :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
-		    :domain               => "gmail.com" # the HELO domain provided by the client to the server
+		    :domain               => "carsonhamiltonresume.herokuapp.com" # the HELO domain provided by the client to the server
 		  }
 		})
   	# @mail = Pony.mail(:to =>'cjcham77@gmail.com', :via => :smtp, :from => params[:email], :subject => params[:subject], :body => params[:emailbody])
