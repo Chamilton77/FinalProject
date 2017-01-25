@@ -4,6 +4,6 @@ class ResumeController < ApplicationController
 
   def sendMail
   	@mail = Pony.mail(:to =>'cjcham77@gmail.com', :from => params[:email], :subject => params[:subject], :body => params[:emailbody])
-	redirect_to :back
+	redirect_to root_path
   end
 end
