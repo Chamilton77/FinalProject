@@ -5,9 +5,6 @@ class ResumeController < ApplicationController
   def sendMail
 	Pony.mail({
 		  :to => 'cjcham77@gmail.com',
-		  :from => params[:email],
-		  :subject => params[:subject],
-		  :body => params[:emailbody],
 		  :via => :smtp,
 		  :via_options => {
 		    :address              => 'smtp.gmail.com',
@@ -18,6 +15,9 @@ class ResumeController < ApplicationController
 		    :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
 		    :domain               => "gmail.com" # the HELO domain provided by the client to the server
 		  }
+		  :from => params[:email],
+		  :subject => params[:subject],
+		  :body => params[:emailbody],
 		})
   	# @mail = Pony.mail(:to =>'cjcham77@gmail.com', :via => :smtp, :from => params[:email], :subject => params[:subject], :body => params[:emailbody])
 	redirect_to root_path
