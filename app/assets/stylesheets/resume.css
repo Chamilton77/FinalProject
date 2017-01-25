@@ -19,10 +19,10 @@ body{
     background-image: url("/assets/aboutme.jpg");
 }
 #workparallax{
-	background-image: url("/assets/work.jpg")
+	background-image: url("/assets/work.jpg");
 }
 #expparallax{
-	background-image: url("/assets/experience.jpg")
+	background-image: url("/assets/experience.jpg");
 }
 #portparallax{
     background-image: url("/assets/port.jpg");
