@@ -2,9 +2,9 @@
 <br>
 <br>
 <div class="contactwrap">
-	<div class="contactinfo">
+	<div class="contactinfo" data-aos="fade-up-right" >
 		<h2 id="contacttitle">Send me an Email</h2>
-		<div id="contactform">
+		<div id="contactform" data-aos="flip-right" data-aos-duration="1000">
 			<%= form_tag(contact_path, {:class => "form"}) do %>
   				<%= email_field_tag :email, nil, :placeholder => "Your Email" %>
   				<br>
@@ -16,17 +16,20 @@
 			<% end %>
 		</div>
 	</div>
-	<div class="contactinfo">
+	<div class="contactinfo" data-aos="fade-up-left">
 		<div>
 			<h2 id="cmtitle">Contact Me</h2>
 		</div>
 		<div id="cmline"></div>
 		<div id="contacts">
-			<ul id="links">
-				<li>Phone Number: 801-928-0514</li>
-				<li>Email Address: Cjcham77@gmail.com</li>
-				<li>Add my linked in here</li>
-				<li>Add my github here</li>
+			<ul id="links" data-aos="fade-left">
+				<li data-aos="zoom-right" data-aos-duration="500">Phone Number: 801-928-0514</li>
+				<br>
+				<li data-aos="zoom-right" data-aos-duration="1000">Email Address: Cjcham77@gmail.com</li>
+				<br>
+				<li data-aos="zoom-right" data-aos-duration="1500">Checkout my GitHub <a href="https://github.com/Chamilton77" target="_blank">Here</a></li>
+				<br>
+				<li data-aos="zoom-right" data-aos-duration="2000">Here is a link to my <a href="https://www.linkedin.com/in/carson-hamilton/" target="_blank">LinkedIn</a></li>
 			</ul>
 		</div>
 	</div>

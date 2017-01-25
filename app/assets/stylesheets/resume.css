@@ -3,6 +3,8 @@ body{
 	position: relative;
 	height: 100%;
 	font-family: Georgia, serif;
+	overflow-x: hidden;
+	width: 1280px;
 }	
 .parallax {
     background-attachment: fixed;
@@ -11,22 +13,22 @@ body{
     background-size: cover;
 }
 #mainparallax{
-    background-image: url("/assets/main.jpg");
+    background: image-url("/assets/main.jpg");
 }
 #aboutparallax{
-    background-image: url("/assets/aboutme.jpg");
+    background: image-url("/assets/aboutme.jpg");
 }
 #workparallax{
-	background-image: url("/assets/work.jpg")
+	background: image-url("/assets/work.jpg")
 }
 #expparallax{
-	background-image: url("/assets/experience.jpg")
+	background: image-url("/assets/experience.jpg")
 }
 #portparallax{
-    background-image: url("/assets/port.jpg");
+    background: image-url("/assets/port.jpg");
 }
 #eduparallax{
-    background-image: url("/assets/education.jpg");	
+    background: image-url("/assets/education.jpg");	
 }
 #contactparallax{
     background-color:#1a2930;
@@ -36,6 +38,8 @@ body{
 }
 .about{
 	height:730px;
+	width:1280px;
+	overflow:hidden;
 }
 .workexp{
 	height: 730px;
@@ -112,47 +116,69 @@ body{
 	text-align: center;
 }
 /**********************************aboutpage***************************************/
+#mypic{
+	width: 80%;
+	height: 425px;
+	margin-top: 30px;
+}
 #amname{
 	height: 200px;
 	background-color:#1a2930;
 	width: 40%;
 	float: left;
+	border-radius: 10px;
+	padding:7px 7px 7px 7px;
+	padding-top: 50px;
+
 }
 #amjob{
 	background-color: #1a2930;
-	height: 200px;
+	height: 500px;
 	width: 40%;
 	float: right;
-
+	border-radius: 10px;
+	padding:5px 5px 5px 5px;
 }
 #amhobby{
 	background-color: #1a2930;
 	height: 200px;
 	width: 40%;
-
+	border-radius: 10px;
+	padding:5px 5px 5px 5px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 50px;
 }
 #namepic{
 	width: 100%;
 	height: 25%;
 	padding-left: 75px;
 	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 50px;
 }
 #jobsearch{
 	width: 100%;
 	height: 25%;
 	padding-right: 75px;
 	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-size: 20px;
 }
 #hobbypic{
 	width: 100%
 	height: 25%;
 	padding-left: 75px;
 	color: white;
+	margin-top: 185px;
 }
 .amwrap{
-	margin-top: 50px;
 	height: 650px;
 }
+
+
 /**************************************workexperience******************************/
 #rushtitle{
 	background-color:#f7ce3e ;
@@ -177,13 +203,14 @@ body{
 #jobboondocks{
 	width: 60%;
 	height: 20%;
-	margin-left: 250px;
+	margin-left: 200px;
 	margin-top: 102px;
 }
 #jobrush{
 	width: 60%;
 	height: 20%;
 	margin-left: 425px;
+	margin-bottom: 60px;
 }
 #rushdes{
 	width: 55%;
@@ -285,9 +312,15 @@ body{
 	width: 100%;
 	height: 275px;
 }
+#devcloudpic:hover{
+	opacity: .5;
+}
 #chefpic{
 	width:100%;
 	height: 275px;
+}
+#chefpic:hover{
+	opacity: .5;
 }
 #projdes{
 	width: 80%;
@@ -300,6 +333,9 @@ body{
 	padding: 5px;
 	color: white;
 }
+#projectwords{
+	margin-top: 30px;
+}
 /*************************************Education************************************/
 #eduwrap{
 	text-align: center;
@@ -311,7 +347,9 @@ body{
 	width: 50%;
 	text-align: center;
 	margin-left: 5%;
-	height: 125px;
+	height: 145px;
+	padding: 5px 5px 5px 5px;
+	overflow: hidden;
 }
 #college{
 	background-color:#1a2930;
@@ -319,7 +357,10 @@ body{
 	width: 50%;
 	text-align: center;
 	margin-left: 25%;
-	height: 125px;
+	height: 145px;
+	padding: 5px 5px 5px 5px;
+	overflow:hidden;
+
 }
 #highschool{
 	background-color:#1a2930;
@@ -327,7 +368,10 @@ body{
 	width: 50%;
 	text-align: center;
 	margin-left: 45%; 
-	height: 125px;
+	height: 145px;
+	padding: 5px 5px 5px 5px;
+	overflow:hidden;
+
 }
 .dates{
 	margin-top: -8px;
@@ -341,6 +385,7 @@ body{
 	margin-top: 25px;
 	margin-left: 40px;
 	border-radius: 10%;
+	overflow: hidden;
 }
 #contactform{
 	margin-top: 25px;
@@ -393,7 +438,7 @@ body{
 }
 #contacttitle{
 	color: #0a1612;
-	margin-left: 100px;
+	margin-left: 105px;
 	margin-top: 50px;
 	font-size: 45px;
 }
@@ -404,6 +449,7 @@ body{
 #cmtitle{
 	margin-left: 200px;
 	width: 200px;
+	color: black;
 }
 #cmline{
 	border-bottom: 2px solid black;
